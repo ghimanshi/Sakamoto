@@ -102,18 +102,31 @@ const GlobalStyle = createGlobalStyle`
 		background-color: rgba(0, 0, 0, 0.6);
 		color: #FFFFFF;
 	}
+
+	#errContainer
+	{
+		diplay:flex;
+		flex-direction: row;
+		justify-content:center;
+
+	}
 	.pageNotFound{
 		display:flex;
 		flex-direction:row;
 		margin-left:auto;
 		margin-right:auto;
-		align-conetnt:center;
+		align-content:center;
+		justify-content:center;
+		flex-wrap:wrap;
+		align-items: center;
+		width:fit-content;
+		height:fit-content;
 	}
 	.errorMessage
 	{
 		display:flex;
 		flex-direction: column;
-		justify-content: flex-start;
+		justify-content: center;
 		align-content: center;
 
 	}
